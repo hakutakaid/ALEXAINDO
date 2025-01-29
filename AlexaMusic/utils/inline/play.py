@@ -176,10 +176,10 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
             ),
         ],
         [
-            InlineKeyboardButton(
-                text=_["S_B_3"],
-                url=f"{SUPPORT_GROUP}",
-            ),
+            # InlineKeyboardButton(
+                # text=_["S_B_3"],
+                # url=f"{SUPPORT_GROUP}",
+            # ),
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
                 callback_data=f"forceclose {videoid}|{user_id}",
@@ -201,10 +201,10 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
             ),
         ],
         [
-            InlineKeyboardButton(
-                text=_["S_B_3"],
-                url=f"{SUPPORT_GROUP}",
-            ),
+            # InlineKeyboardButton(
+                # text=_["S_B_3"],
+                # url=f"{SUPPORT_GROUP}",
+            # ),
             InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"],
                 callback_data=f"forceclose {videoid}|{user_id}",
@@ -267,10 +267,10 @@ def panel_markup_1(_, videoid, chat_id):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(
-                text=_["S_B_3"],
-                url=f"{SUPPORT_GROUP}",
-            ),
+            # InlineKeyboardButton(
+                # text=_["S_B_3"],
+                # url=f"{SUPPORT_GROUP}",
+            # ),
         ],
         [
             InlineKeyboardButton(
