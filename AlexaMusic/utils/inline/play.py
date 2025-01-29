@@ -316,6 +316,6 @@ def queue_markup(_, videoid, chat_id):
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
-        [InlineKeyboardButton(text="𝖢𝗅𝗈𝗌𝖾", callback_data=f"ADMIN Close|{chat_id}")],
+        [InlineKeyboardButton(text="𝖢𝗅𝗈𝗌𝖾", callback_data="close")],
     ]
     return buttons
