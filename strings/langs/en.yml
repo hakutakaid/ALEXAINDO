@@ -233,7 +233,7 @@ song_11: "Mengunggah dimulai cintaku ​\n\nHarap tunggu..."
 queue_1: "» Harap tunggu..."
 queue_2: "Antrian Kosong."
 queue_3: "<u>**Antrian Lagu yang Dipesan:</u>** [Periksa Lagu yang Dipesan Selengkapnya dari Sini]({0})"
-queue_4: "**💫 Ditambahkan ke Antrian di #{0}**\n\n**🌷 Judul:** {1}\n**⏱ Durasi:** {2}\n **Ditambahkan oleh:** @Alexa_Help"
+queue_4: "**💫 Ditambahkan ke Antrian di #{0}**\n\n** Judul:** {1}\n**⏱ Durasi:** {2}"
 queue_5: "Hanya ada satu lagu di antrian, tambahkan beberapa lagu lagi ke antrian untuk memeriksa keseluruhan antrian."
 
 # All Streaming Lines
