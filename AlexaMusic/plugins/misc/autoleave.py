@@ -76,7 +76,7 @@ async def auto_end():
                     await Alexa.stop_stream(chat_id)
                     await app.send_message(
                         chat_id,
-                        "ʙᴏᴛ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴄʟᴇᴀʀᴇᴅ ᴛʜᴇ ǫᴜᴇᴜᴇ ᴀɴᴅ ʟᴇғᴛ ᴠɪᴅᴇᴏᴄʜᴀᴛ ʙᴇᴄᴀᴜsᴇ <b>ɴᴏ ᴏɴᴇ ᴡᴀs ʟɪsᴛᴇɴɪɴɢ sᴏɴɢs ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ.</b>",
+                        "bot secara otomatis membersihkan antrean dan keluar dari video chat karena <b>tidak ada yang mendengarkan lagu di video chat.</b>",
                     )
                 except Exception:
                     pass
