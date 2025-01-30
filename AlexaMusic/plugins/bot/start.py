@@ -277,7 +277,7 @@ async def welcome(client, message: Message):
             return
 
 
-@app.on_message(commandpro(["/alive", "Alexa"]))
+@app.on_message(commandpro(["/alive", "deva"]))
 async def alive(client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/125f531d44a9999290cac.jpg",
