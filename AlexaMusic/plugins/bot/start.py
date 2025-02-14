@@ -279,13 +279,14 @@ async def welcome(client, message: Message):
 
 @app.on_message(commandpro(["/alive", "deva"]))
 async def alive(client, message: Message):
-    await message.reply_photo(
-        photo=f"https://telegra.ph/file/125f531d44a9999290cac.jpg",
-        caption=f"""✪ ʜᴇʟʟᴏ, ᴍᴜsɪᴄ ɪs ᴡᴏʀᴋɪɴɢ ᴀɴᴅ ғᴜɴᴄᴛɪᴏɴɪɴɢ ᴘʀᴏᴘᴇʀʟʏ\n✪ ᴛʜᴀɴᴋs ᴛᴏ ʏᴜᴋᴋɪ ᴛᴇᴀᴍ  ..""",
-        reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton(" ᴀʟᴇxᴀ ᴄʜᴀᴛ 💮", url=config.SUPPORT_GROUP)]]
-        ),
-    )
+    await message.reply("<b>sᴀɴɢᴇ sᴀʏᴀɴɢ</b>")
+    # await message.reply_photo(
+        # photo=f"https://telegra.ph/file/125f531d44a9999290cac.jpg",
+        # caption=f"""✪ ʜᴇʟʟᴏ, ᴍᴜsɪᴄ ɪs ᴡᴏʀᴋɪɴɢ ᴀɴᴅ ғᴜɴᴄᴛɪᴏɴɪɴɢ ᴘʀᴏᴘᴇʀʟʏ\n✪ ᴛʜᴀɴᴋs ᴛᴏ ʏᴜᴋᴋɪ ᴛᴇᴀᴍ  ..""",
+        # reply_markup=InlineKeyboardMarkup(
+            # [[InlineKeyboardButton(" ᴀʟᴇxᴀ ᴄʜᴀᴛ 💮", url=config.SUPPORT_GROUP)]]
+        # ),
+    # )
 
 
 @app.on_message(commandpro(["/verify", "alexaverification"]))
