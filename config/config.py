@@ -115,62 +115,62 @@ START_IMG_URL = getenv(
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://files.catbox.moe/e30wbs.jpg",
+    "https://files.catbox.moe/srz4mw.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://files.catbox.moe/e30wbs.jpg",
+    "https://files.catbox.moe/srz4mw.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "https://files.catbox.moe/e30wbs.jpg",
+    "https://files.catbox.moe/srz4mw.jpg",
 )
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "https://files.catbox.moe/e30wbs.jpg",
+    "https://files.catbox.moe/srz4mw.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
     "TELEGRAM_AUDIO_URL",
-    "https://files.catbox.moe/e30wbs.jpg",
+    "https://files.catbox.moe/srz4mw.jpg",
 )
 
 TELEGRAM_VIDEO_URL = getenv(
     "TELEGRAM_VIDEO_URL",
-    "https://files.catbox.moe/e30wbs.jpg",
+    "https://files.catbox.moe/srz4mw.jpg",
 )
 
 STREAM_IMG_URL = getenv(
     "STREAM_IMG_URL",
-    "https://files.catbox.moe/e30wbs.jpg",
+    "https://files.catbox.moe/srz4mw.jpg",
 )
 
 SOUNCLOUD_IMG_URL = getenv(
     "SOUNCLOUD_IMG_URL",
-    "https://files.catbox.moe/e30wbs.jpg",
+    "https://files.catbox.moe/srz4mw.jpg",
 )
 
 YOUTUBE_IMG_URL = getenv(
     "YOUTUBE_IMG_URL",
-    "https://files.catbox.moe/e30wbs.jpg",
+    "https://files.catbox.moe/srz4mw.jpg",
 )
 
 SPOTIFY_ARTIST_IMG_URL = getenv(
     "SPOTIFY_ARTIST_IMG_URL",
-    "https://files.catbox.moe/e30wbs.jpg",
+    "https://files.catbox.moe/srz4mw.jpg",
 )
 
 SPOTIFY_ALBUM_IMG_URL = getenv(
     "SPOTIFY_ALBUM_IMG_URL",
-    "https://files.catbox.moe/e30wbs.jpg",
+    "https://files.catbox.moe/srz4mw.jpg",
 )
 
 SPOTIFY_PLAYLIST_IMG_URL = getenv(
     "SPOTIFY_PLAYLIST_IMG_URL",
-    "https://files.catbox.moe/e30wbs.jpg",
+    "https://files.catbox.moe/srz4mw.jpg",
 )
 
 
@@ -211,7 +211,7 @@ if GITHUB_REPO:
 
 
 if PING_IMG_URL:
-    if PING_IMG_URL != "https://files.catbox.moe/e30wbs.jpg":
+    if PING_IMG_URL != "https://files.catbox.moe/srz4mw.jpg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
             print(
                 "[ERROR] - Your PING_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -219,7 +219,7 @@ if PING_IMG_URL:
             sys.exit()
 
 if PLAYLIST_IMG_URL:
-    if PLAYLIST_IMG_URL != "https://files.catbox.moe/e30wbs.jpg":
+    if PLAYLIST_IMG_URL != "https://files.catbox.moe/srz4mw.jpg":
         if not re.match("(?:http|https)://", PLAYLIST_IMG_URL):
             print(
                 "[ERROR] - Your PLAYLIST_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -227,7 +227,7 @@ if PLAYLIST_IMG_URL:
             sys.exit()
 
 if GLOBAL_IMG_URL:
-    if GLOBAL_IMG_URL != "https://files.catbox.moe/e30wbs.jpg":
+    if GLOBAL_IMG_URL != "https://files.catbox.moe/srz4mw.jpg":
         if not re.match("(?:http|https)://", GLOBAL_IMG_URL):
             print(
                 "[ERROR] - Your GLOBAL_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -236,7 +236,7 @@ if GLOBAL_IMG_URL:
 
 
 if STATS_IMG_URL:
-    if STATS_IMG_URL != "https://files.catbox.moe/e30wbs.jpg":
+    if STATS_IMG_URL != "https://files.catbox.moe/srz4mw.jpg":
         if not re.match("(?:http|https)://", STATS_IMG_URL):
             print(
                 "[ERROR] - Your STATS_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -245,7 +245,7 @@ if STATS_IMG_URL:
 
 
 if TELEGRAM_AUDIO_URL:
-    if TELEGRAM_AUDIO_URL != "https://files.catbox.moe/e30wbs.jpg":
+    if TELEGRAM_AUDIO_URL != "https://files.catbox.moe/srz4mw.jpg":
         if not re.match("(?:http|https)://", TELEGRAM_AUDIO_URL):
             print(
                 "[ERROR] - Your TELEGRAM_AUDIO_URL url is wrong. Please ensure that it starts with https://"
@@ -254,7 +254,7 @@ if TELEGRAM_AUDIO_URL:
 
 
 if STREAM_IMG_URL:
-    if STREAM_IMG_URL != "https://files.catbox.moe/e30wbs.jpg":
+    if STREAM_IMG_URL != "https://files.catbox.moe/srz4mw.jpg":
         if not re.match("(?:http|https)://", STREAM_IMG_URL):
             print(
                 "[ERROR] - Your STREAM_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -263,7 +263,7 @@ if STREAM_IMG_URL:
 
 
 if SOUNCLOUD_IMG_URL:
-    if SOUNCLOUD_IMG_URL != "https://files.catbox.moe/e30wbs.jpg":
+    if SOUNCLOUD_IMG_URL != "https://files.catbox.moe/srz4mw.jpg":
         if not re.match("(?:http|https)://", SOUNCLOUD_IMG_URL):
             print(
                 "[ERROR] - Your SOUNCLOUD_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -271,7 +271,7 @@ if SOUNCLOUD_IMG_URL:
             sys.exit()
 
 if YOUTUBE_IMG_URL:
-    if YOUTUBE_IMG_URL != "https://files.catbox.moe/e30wbs.jpg":
+    if YOUTUBE_IMG_URL != "https://files.catbox.moe/srz4mw.jpg":
         if not re.match("(?:http|https)://", YOUTUBE_IMG_URL):
             print(
                 "[ERROR] - Your YOUTUBE_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -280,7 +280,7 @@ if YOUTUBE_IMG_URL:
 
 
 if TELEGRAM_VIDEO_URL:
-    if TELEGRAM_VIDEO_URL != "https://files.catbox.moe/e30wbs.jpg":
+    if TELEGRAM_VIDEO_URL != "https://files.catbox.moe/srz4mw.jpg":
         if not re.match("(?:http|https)://", TELEGRAM_VIDEO_URL):
             print(
                 "[ERROR] - Your TELEGRAM_VIDEO_URL url is wrong. Please ensure that it starts with https://"
